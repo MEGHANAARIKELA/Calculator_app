@@ -1,0 +1,86 @@
+body{
+    background-color: #d8b17f;
+}
+.btn{
+    padding:0 15px;
+    border-radius: 0;
+}
+.container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.calculator{
+    background-color: #cacfd6;
+    padding:20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    height: 60px;
+    width:60px;
+    color:rgb(32, 32, 32);
+    background: transparent;
+    box-shadow:-8px -8px 15px rgba(255,255,255,0.11),5px 5px 15px rgba(0,0,0,0.2);
+    border:0;
+    outline:0;
+    font-size: 16px;
+    margin:10px;
+    cursor: pointer;
+    border-radius: 10px;;
+}
+.calculator form input:hover{
+    background-color: #9da0a3;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 0;
+}
+form .display input{
+    text-align:right;
+    flex:1;
+    font-size: 45px;
+    box-shadow: none;;
+}
+form input.equal{
+   
+    color:#3a4452;
+    width:140px;
+    
+}
+form input.operator{
+    color:#a56e25;
+}
+form input.operator:hover{
+    background:#a56e25;
+    color:#fFffff;
+    font-weight: bold;
+
+}
+.menu{
+          width:35px;
+          height: 5px;
+          background-color: black;
+          margin: 6px 0;
+          cursor:pointer;      
+}
+li{
+    font-size:large;
+}
+.dropdown-menu{
+    background-color: #3a4452;
+    box-shadow:-8px -8px 15px rgba(255,255,255,0.11),5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 0px;
+    text-emphasis-color: #fff;
+    width:30%;
+}
+.dropdown-menu .dropdown-item{
+    color:white;
+    padding:10px 0 10px 0;
+
+}
+.dropdown-menu .dropdown-item:hover{
+    color:#3a4452;
+}
